@@ -26,9 +26,9 @@
 		right:5em;
 	}
 	.brand-name{
-		font-size:2.7em;
+		font-size:2.5em;
 		color:var(--green);
-		margin-right:7em;
+		margin-right:5em;
 		animation:name-slide-in .9s cubic-bezier(.62,.15,.4,.9) 1 alternate both;
 	}
 	@keyframes name-slide-in{
@@ -45,11 +45,10 @@
 	nav{
 		display:flex;
 		align-items:center;
-		margin-right:10em;
 	}
 	a{
 		text-decoration:none;
-		margin-left:5em;
+		margin-right:5em;
 		color:white;
 		font-size:1em;
 		animation:slide-down .9s cubic-bezier(.62,.15,.4,.9) .9s 1 alternate both;
@@ -69,7 +68,7 @@
 		color:var(--green);
 	}
 	.explore{
-		padding:5px 8px;
+		padding:5px 10px;
 		color:white;
 		border:none;
 		border-radius:4px;

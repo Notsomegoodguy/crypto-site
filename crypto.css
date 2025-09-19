@@ -2,7 +2,7 @@
 	box-sizing:border-box;
 }
 
-@media (max-width:2000px){
+@media (min-width:900px){
 	body{
 		margin:0;
 		margin-bottom:1000px;
@@ -26,9 +26,9 @@
 		right:5em;
 	}
 	.brand-name{
-		font-size:1.2em;
+		font-size:2.7em;
 		color:var(--green);
-		margin-right:10em;
+		margin-right:7em;
 		animation:name-slide-in .9s cubic-bezier(.62,.15,.4,.9) 1 alternate both;
 	}
 	@keyframes name-slide-in{
@@ -49,9 +49,9 @@
 	}
 	a{
 		text-decoration:none;
-		margin-right:3em;
+		margin-left:5em;
 		color:white;
-		font-size:12px;
+		font-size:1em;
 		animation:slide-down .9s cubic-bezier(.62,.15,.4,.9) .9s 1 alternate both;
 		transition:all linear;
 	}
